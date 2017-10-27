@@ -1,5 +1,0 @@
-src/main/java/edu/luc/cs271/linkedstack/Node.java,1508118858538973000,891,FORMATTED
-src/test/java/edu/luc/cs271/linkedstack/TestLinkedStack.java,1508118858106972000,1854,FORMATTED
-src/main/java/edu/luc/cs271/linkedstack/ReverseLines.java,1508194755920136000,689,FORMATTED
-src/main/java/edu/luc/cs271/linkedstack/IStack.java,1508118858250972000,1568,FORMATTED
-src/main/java/edu/luc/cs271/linkedstack/LinkedStack.java,1508120761196209000,1158,FORMATTED
