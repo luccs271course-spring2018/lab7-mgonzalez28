@@ -7,6 +7,7 @@ public class LinkedStack<E> implements IStack<E> {
   /** The topmost node of this stack. The stack gets pushed down from here. */
   private Node<E> top;
 
+  private int size;
 
   @Override
   public E push(final E obj) {
@@ -51,13 +52,14 @@ public class LinkedStack<E> implements IStack<E> {
     populateList(top, result); // DONE replace null with the right reference
     return result;
   }
-  
+
   private void populateList(final Node<E> curr, final List<E> result) {
-  // TODO recursively populate the list in the desired order
+    // TODO recursively populate the list in the desired order
     if (curr == null) {
-       populateFifoList(curr.next, result);
+      return;
     }
-    result.add(curr.next, result)
+    result.add(curr.data);
+    populateList(curr.next, result);
   }
 
   @Override
@@ -68,10 +70,11 @@ public class LinkedStack<E> implements IStack<E> {
   }
 
   private void populateFifoList(final Node<E> curr, final List<E> result) {
-  // TODO recursively populate the list in the desired order
+    // TODO recursively populate the list in the desired order
     if (curr == null) {
-      populateFifoList(curr.next, result);
+      return;
     }
-    result.add(curr.next, result)
+    result.add(0, curr.data);
+    populateFifoList(curr.next, result);
   }
 }

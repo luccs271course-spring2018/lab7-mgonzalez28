@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.luc.cs271.linkedstack.TestLinkedStack" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-10-16T22:59:46" hostname="mgonzalez28-my-work-space-5344604" time="0.006">
+<testsuite name="edu.luc.cs271.linkedstack.TestLinkedStack" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-10-28T23:20:44" hostname="mgonzalez28-my-work-space-5344604" time="0.07">
   <properties/>
-  <testcase name="testPushThenPop" classname="edu.luc.cs271.linkedstack.TestLinkedStack" time="0.003"/>
+  <testcase name="testPushThenPop" classname="edu.luc.cs271.linkedstack.TestLinkedStack" time="0.046"/>
   <testcase name="testPush2ThenPop2" classname="edu.luc.cs271.linkedstack.TestLinkedStack" time="0.0"/>
-  <testcase name="testAsListNonempty" classname="edu.luc.cs271.linkedstack.TestLinkedStack" time="0.0"/>
+  <testcase name="testAsFifoListNonempty" classname="edu.luc.cs271.linkedstack.TestLinkedStack" time="0.017"/>
+  <testcase name="testAsListNonempty" classname="edu.luc.cs271.linkedstack.TestLinkedStack" time="0.001"/>
   <testcase name="testAsListEmpty" classname="edu.luc.cs271.linkedstack.TestLinkedStack" time="0.0"/>
-  <testcase name="testInitial" classname="edu.luc.cs271.linkedstack.TestLinkedStack" time="0.0"/>
+  <testcase name="testAsFifoListEmpty" classname="edu.luc.cs271.linkedstack.TestLinkedStack" time="0.0"/>
+  <testcase name="testInitial" classname="edu.luc.cs271.linkedstack.TestLinkedStack" time="0.001"/>
   <testcase name="testAfterPush" classname="edu.luc.cs271.linkedstack.TestLinkedStack" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -81,10 +81,10 @@ public class TestLinkedStack {
     final List<String> list2 = fixture.asList();
     assertEquals(2, list2.size());
   }
-  
+
   @Test
   public void testAsFifoListEmpty() {
-  assertEquals(0, fixture.asFifoList().size());
+    assertEquals(0, fixture.asFifoList().size());
   }
 
   @Test
@@ -98,5 +98,5 @@ public class TestLinkedStack {
     assertEquals(Arrays.asList(value1, value2), list);
     final List<String> list2 = fixture.asFifoList();
     assertEquals(2, list2.size());
-  }  
+  }
 }

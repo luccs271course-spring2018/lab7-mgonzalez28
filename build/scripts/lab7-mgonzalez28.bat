@@ -1,7 +1,7 @@
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
 @rem
-@rem  lab5-mgonzalezlab5 startup script for Windows
+@rem  lab7-mgonzalez28 startup script for Windows
 @rem
 @rem ##########################################################################
 
@@ -13,7 +13,7 @@ if "%DIRNAME%" == "" set DIRNAME=.
 set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%..
 
-@rem Add default JVM options here. You can also use JAVA_OPTS and LAB5_MGONZALEZLAB5_OPTS to pass JVM options to this script.
+@rem Add default JVM options here. You can also use JAVA_OPTS and LAB7_MGONZALEZ28_OPTS to pass JVM options to this script.
 set DEFAULT_JVM_OPTS="-enableassertions"
 
 @rem Find java.exe
@@ -63,19 +63,19 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\lab5-mgonzalezlab5.jar
+set CLASSPATH=%APP_HOME%\lib\lab7-mgonzalez28.jar
 
-@rem Execute lab5-mgonzalezlab5
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LAB5_MGONZALEZLAB5_OPTS%  -classpath "%CLASSPATH%" edu.luc.cs271.linkedstack.ReverseLines %CMD_LINE_ARGS%
+@rem Execute lab7-mgonzalez28
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LAB7_MGONZALEZ28_OPTS%  -classpath "%CLASSPATH%" edu.luc.cs271.linkedstack.ReverseLines %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
 if "%ERRORLEVEL%"=="0" goto mainEnd
 
 :fail
-rem Set variable LAB5_MGONZALEZLAB5_EXIT_CONSOLE if you need the _script_ return code instead of
+rem Set variable LAB7_MGONZALEZ28_EXIT_CONSOLE if you need the _script_ return code instead of
 rem the _cmd.exe /c_ return code!
-if  not "" == "%LAB5_MGONZALEZLAB5_EXIT_CONSOLE%" exit 1
+if  not "" == "%LAB7_MGONZALEZ28_EXIT_CONSOLE%" exit 1
 exit /b 1
 
 :mainEnd
