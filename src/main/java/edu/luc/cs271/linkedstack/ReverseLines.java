@@ -11,14 +11,15 @@ public class ReverseLines {
   private static void printReverse(final Scanner input) {
     // TODO recursively read and print successive input lines until EOF, then print them out in
     // reverse order
-    String line;
-    Stack<String> list = new Stack<String>();
-    if (input.hasNextLine()) {
-      line = input.nextLine();
-      list.push(line);
+    String line = input.nextLine();
+    Stack<String> reverse = new Stack<String>();
+    if (line.equals("")) {
+      return;
+    } else {
+      reverse.push(line);
       System.out.println(line);
       printReverse(input);
     }
-    System.out.println(list.pop());
+    System.out.println(reverse.pop());
   }
 }
