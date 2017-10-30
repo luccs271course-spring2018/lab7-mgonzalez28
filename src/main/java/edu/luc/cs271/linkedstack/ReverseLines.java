@@ -4,6 +4,8 @@ import java.util.*;
 
 public class ReverseLines {
   public static void main(final String[] args) {
+    System.out.println("Enter as many lines as you want");
+    System.out.println("Press enter twice when finished");
     final Scanner input = new Scanner(System.in);
     printReverse(input);
   }
